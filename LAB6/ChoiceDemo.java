@@ -54,3 +54,25 @@ public class ChoiceDemo extends Frame implements ItemListener{
 		else if(Selection == 3){
 			setBackground(Color.cyan);
 		}
+		else if(Selection ==4){
+			setBackground(Color.green);
+		}
+		else if(Selection== 5){
+			setBackground(Color.yellow);
+		}
+		else if(Selection == 6){
+			setBackground(Color.white);
+		}
+		else if(Selection == 7){
+			setBackground(Color.gray);
+		}
+		else if(Selection == 8){
+			setBackground(Color.black);
+		}
+	}
+	public static void main(String[] args){
+		ChoiceDemo cd = new ChoiceDemo();
+		cd.setVisible(true);
+		cd.setSize(300,300);
+	}
+}
